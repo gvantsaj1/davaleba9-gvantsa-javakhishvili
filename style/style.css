@@ -11,10 +11,10 @@ body{
     background-size: cover;
     width: 100%;
 }
-.mtavari{
+ .mtavari{
     height: 800px;
-    width: 750px;
-    margin-left:500px;
+    width: 600px;
+    margin-left:400px;
     margin-top: 50px;
 }
 .shekveta{
@@ -64,6 +64,7 @@ body{
     margin-top: 50px;
     margin-left: 150px;
 }
+
 .gaformeba{
     margin-top: 70px;
     background-color: #01AF8C;
@@ -73,6 +74,10 @@ body{
     border: none;
     border-bottom: 3px solid #000000;
     border-radius: 10px;
+}
+.gaformeba:hover{
+    background-color: #049174;
+    cursor: pointer;
 }
 .kontainer{
     width: 750px;
@@ -110,7 +115,6 @@ body{
     background-color: #F5BA22;
     font-size: 20px;
     width: 750px;
-    height: 70px;
     border: none;
     border-bottom: 3px solid #000000;
     border-radius: 10px;
@@ -119,10 +123,14 @@ body{
 .psd{
     text-align: center;
     font-size: 20px;
+    padding-bottom: 24px;
     padding-top: 20px;
+    border-radius: 10px;
 }
-
-
+.psd:hover{
+    background-color: #d8a31d;
+    cursor: pointer;
+}
 
     
 
